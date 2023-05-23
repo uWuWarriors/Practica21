@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="some_id">Анализы</string>
+    <string name="some_id2">Экспресс сбор и получение проб</string>
+    <string name="some_id3">Пропустить</string>
+    <string name="page1reg">Добро пожаловать!</string>
+    <string name="page2reg">Войдите, чтобы пользоваться функциями \nприложения</string>
+    <string name="titel">Вход по E-mail</string>
+    <string name="some_help">Или войдите с помощью</string>
+    <string name="code">Введите код из E-mail</string>
+    <string name="hint">Отправить код повторно можно\nбудет через 59 секунд</string>
+    <string name="createPol">Создание карты \nпациента</string>
+    <string name="createPolkart">Без карты пациента вы не сможете заказать анализы.</string>
+    <string name="createPolkar2">В картах пациентов будут храниться результаты\nанализов вас и ваших близких.</string>
+    <string name="email">"@"</string>
+    <string-array name="Female">
+        <item>Пол</item>
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+</resources>

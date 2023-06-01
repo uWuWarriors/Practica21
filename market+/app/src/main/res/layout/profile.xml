@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Карта пациента"/>
+
+        <ImageView
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center">
+        </ImageView>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Без карты пациента вы не сможете заказать анализы."
+
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="В картах пациентов будут храниться результаты \nанализов вас и ваших близких."
+
+        android:textSize="12dp"/>
+
+    <EditText
+        android:paddingLeft="14dp"
+        android:inputType="text"
+        android:layout_marginTop="32dp"
+        android:layout_width="390dp"
+        android:layout_height="55dp"
+        android:textSize="14dp"
+        android:hint="Имя"
+        />
+    <EditText
+        android:paddingLeft="14dp"
+        android:inputType="text"
+        android:layout_marginTop="8dp"
+        android:layout_width="390dp"
+        android:layout_height="55dp"
+        android:textSize="14dp"
+        android:hint="Отчество"
+        />
+    <EditText
+        android:paddingLeft="14dp"
+        android:inputType="text"
+        android:layout_marginTop="8dp"
+        android:layout_width="390dp"
+        android:layout_height="55dp"
+        android:textSize="14dp"
+        android:hint="Фамилия"
+        />
+    <EditText
+        android:paddingLeft="14dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="390dp"
+        android:layout_height="55dp"
+        android:textSize="14dp"
+        android:hint="Дата рождения"
+
+        android:inputType="text"/>
+    <Spinner
+        android:paddingLeft="320dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/spiside"
+        android:layout_width="390dp"
+        android:layout_height="55dp"
+        />
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:text="Сохранить"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tablab"
+            android:background="@android:color/transparent"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tablab2"
+            android:background="@android:color/transparent"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tablab3"
+            android:background="@android:color/transparent"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@android:color/transparent"
+
+            android:src="@drawable/tablab4"
+            android:contentDescription="TODO" />
+    </LinearLayout>
+
+
+</LinearLayout>

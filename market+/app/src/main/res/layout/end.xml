@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Оплата"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/probirkaend"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ваш заказ успешно оплачен!"
+
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вам осталось дождаться приезда медсестры\n        и сдать анализы. До скорой встречи!"
+
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Не забудьте ознакомиться с"
+                />
+            <ImageView
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               />
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="правилами"
+               />
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="подготовки к сдаче анализов"
+           />
+        <Button
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="Чек покупки"
+            android:textAllCaps="false"
+
+            />
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+
+            android:text="Заказать"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="16dp"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
